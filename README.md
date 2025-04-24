@@ -63,12 +63,7 @@ This repository documents the process of migrating an IXIOS L1 validator node fr
 - Implemented automated reconnection services
 - Identified and mitigated network-level vulnerabilities
 
-## Maintenance
-Standard maintenance commands:
-```bash
-# Recovery procedure (after reset)
-podman start grafana loki prometheus node-exporter promtail
-```
+---
 
 ## Technologies Used
 - IXIOS AetherSeed validator toolkit v2.1.0rc1
